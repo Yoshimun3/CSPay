@@ -8,6 +8,7 @@ import "./PayBills.css";
 function PayBills() {
   const { user } = useAuth();
   const [billingData, setBillingData] = useState({ unpaid: [], paid: [] });
+  const [accountStatusData, setAccountStatusData] = useState({ active: [], disconnected: [], forDisconnection: [] });
   const [activeTab, setActiveTab] = useState("unpaid");
   const navigate = useNavigate();
 
@@ -149,9 +150,33 @@ function PayBills() {
           <p className="no-bills">No {activeTab} bills found.</p>
         )}
       </div>
+
+      
+      <div className="account-status-section">
+  <h3 className="account-status-header">Account Status Overview</h3>
+  <div className="status-container">
+    <div 
+      className={`status-box ${
+        billingData.unpaid.length >= 2 
+          ? "for-disconnection" 
+          : billingData.unpaid.length === 0 
+          ? "active" 
+          : "pending"
+      }`}
+    >
+      {billingData.unpaid.length >= 2 
+        ? "For Disconnection" 
+        : billingData.unpaid.length === 0 
+        ? "Active" 
+        : "Pending Payment"}
+    </div>
+  </div>
+</div>
+
+
       <button className="btn-back" onClick={() => navigate("/home")}>Back to Home</button>
     </div>
   );
 }
-
+// CHANGE
 export default PayBills;
