@@ -1,0 +1,173 @@
+[
+    {
+      "name": "NCR - National Capital Region",
+      "cities": [
+        {
+          "name": "Caloocan",
+          "barangays": ["Bagong Barrio", "Grace Park East", "Sangandaan", "Tala"]
+        },
+        {
+          "name": "Las Piñas",
+          "barangays": ["Pamplona", "Zapote", "Pulang Lupa", "Manuyo Uno"]
+        },
+        {
+          "name": "Makati",
+          "barangays": ["Bel-Air", "Poblacion", "Guadalupe Nuevo", "San Lorenzo"]
+        },
+        {
+          "name": "Malabon",
+          "barangays": ["Baritan", "Longos", "Maysilo", "Potrero"]
+        },
+        {
+          "name": "Mandaluyong",
+          "barangays": ["Addition Hills", "Barangka", "Highway Hills", "Plainview"]
+        },
+        {
+          "name": "Manila",
+          "barangays": ["Binondo", "Ermita", "Malate", "Paco", "Tondo"]
+        },
+        {
+          "name": "Marikina",
+          "barangays": ["Barangka", "Concepcion Uno", "Fortune", "Nangka"]
+        },
+        {
+          "name": "Muntinlupa",
+          "barangays": ["Alabang", "Bayanan", "Putatan", "Sucat"]
+        },
+        {
+          "name": "Navotas",
+          "barangays": ["Bagumbayan North", "Bangkulasi", "Daanghari", "San Roque"]
+        },
+        {
+          "name": "Parañaque",
+          "barangays": ["Baclaran", "Don Galo", "San Dionisio", "Sun Valley"]
+        },
+        {
+          "name": "Pasay",
+          "barangays": ["Barangay 1", "Barangay 2", "Barangay 3", "Barangay 4"]
+        },
+        {
+          "name": "Pasig",
+          "barangays": ["Bagong Ilog", "Caniogan", "Manggahan", "Santolan"]
+        },
+        {
+          "name": "Quezon City",
+          "barangays": ["Bagong Silangan", "Batasan Hills", "Commonwealth", "Novaliches"]
+        },
+        {
+          "name": "San Juan",
+          "barangays": ["Greenhills", "Little Baguio", "West Crame", "Sta. Lucia"]
+        },
+        {
+          "name": "Taguig",
+          "barangays": ["Bagumbayan", "Fort Bonifacio", "Western Bicutan", "Ususan"]
+        },
+        {
+          "name": "Valenzuela",
+          "barangays": ["Karuhatan", "Malanday", "Marulas", "Polo"]
+        }
+      ]
+    },
+    {
+      "name": "Region III - Central Luzon",
+      "cities": [
+        {
+          "name": "Angat",
+          "barangays": ["Binagbag", "Donacion", "Encanto", "San Roque"]
+        },
+        {
+          "name": "Balagtas",
+          "barangays": ["Borol 1st", "Borol 2nd", "Pulong Gubat", "Santol"]
+        },
+        {
+          "name": "Baliuag",
+          "barangays": ["Bagong Nayon", "Concepcion", "Poblacion", "Tibag"]
+        },
+        {
+          "name": "Bocaue",
+          "barangays": ["Bagumbayan", "Biñang 1st", "Lolomboy", "Turo"]
+        },
+        {
+          "name": "Bulakan",
+          "barangays": ["Bagumbayan", "Matungao", "Perez", "Tibig"]
+        },
+        {
+          "name": "Bustos",
+          "barangays": ["Bambang", "Bonga Menor", "Malamig", "Poblacion"]
+        },
+        {
+          "name": "Calumpit",
+          "barangays": ["Balungao", "Buguion", "Corazon", "Gugo"]
+        },
+        {
+          "name": "Doña Remedios Trinidad",
+          "barangays": ["Bayabas", "Camachile", "Kalawakan", "Pulong Sampalok"]
+        },
+        {
+          "name": "Guiguinto",
+          "barangays": ["Cutcot", "Ilang-Ilang", "Pritil", "Tiaong"]
+        },
+        {
+          "name": "Hagonoy",
+          "barangays": ["Iba", "San Agustin", "San Isidro", "San Jose"]
+        },
+        {
+          "name": "Malolos",
+          "barangays": ["Anilao", "Bagna", "Mojon", "Santisima Trinidad"]
+        },
+        {
+          "name": "Marilao",
+          "barangays": ["Abangan Norte", "Lias", "Loma de Gato", "Sta. Rosa I"]
+        },
+        {
+          "name": "Meycauayan",
+          "barangays": ["Bahay Pare", "Camalig", "Pajo", "Ubihan"]
+        },
+        {
+          "name": "Norzagaray",
+          "barangays": ["Bangkal", "Bigte", "San Mateo", "Tigbe"]
+        },
+        {
+          "name": "Obando",
+          "barangays": ["Hulo", "Lawa", "Pag-asa", "Salambao"]
+        },
+        {
+          "name": "Pandi",
+          "barangays": ["Bagong Barrio", "Cacarong Bata", "Pinagkuartelan", "Siling Bata"]
+        },
+        {
+          "name": "Paombong",
+          "barangays": ["San Isidro I", "San Roque", "Sto. Niño", "Pinalagdan"]
+        },
+        {
+          "name": "Plaridel",
+          "barangays": ["Banga I", "Banga II", "Bagong Silang", "Tabang"]
+        },
+        {
+          "name": "Pulilan",
+          "barangays": ["Balatong A", "Lumbac", "Peñabatan", "Sta. Peregrina"]
+        },
+        {
+          "name": "San Ildefonso",
+          "barangays": ["Poblacion", "Garlang", "Anyatam", "Matimbubong"]
+        },
+        {
+          "name": "San Jose del Monte",
+          "barangays": ["Muzon", "Tungkong Mangga", "San Rafael I", "San Rafael II"]
+        },
+        {
+          "name": "San Miguel",
+          "barangays": ["Balaong", "Poblacion", "San Jose", "Sta. Ines"]
+        },
+        {
+          "name": "San Rafael",
+          "barangays": ["Bancal", "Cruz na Daan", "Poblacion", "Talacsan"]
+        },
+        {
+          "name": "Santa Maria",
+          "barangays": ["Guyong", "Pulong Buhangin", "Sta. Clara", "Sto. Tomas"]
+        }
+      ]
+    }
+  ]
+  

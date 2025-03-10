@@ -1,0 +1,257 @@
+/* General Styles */
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Admin Dashboard Styles */
+.admin-dashboard {
+  padding: 20px;
+  background-color: #f4f4f4; /* Light background for the admin dashboard */
+  min-height: 100vh; /* Full height */
+}
+
+.tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  justify-content: center; /* Center tabs */
+}
+
+.tabs button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.tabs button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: column; 
+  /* Stack cards vertically */
+  align-items: center; /* Center cards */
+  gap: 20px; /* Add space between cards */
+}
+
+.card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px; /* Consistent width for all cards */
+  transition: transform 0.3s ease;
+  text-align: left; /* Align text to the left inside cards */
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.user-card, .receipt-card {
+  border: none; /* No border for card components */
+}
+
+.receipt-card {
+  cursor: pointer; /* Change cursor for interactive receipt cards */
+}
+
+.receipt-image {
+  max-width: 100%;
+  border-radius: 5px; /* Round corners for receipt images */
+}
+
+.receipt-details {
+  display: none; /* Initially hidden */
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.receipt-card.expanded .receipt-details {
+  display: block; /* Show on click */
+}
+
+input, select {
+  width: calc(100% - 20px); /* Full width minus padding */
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+button[type="submit"]:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+/* Centering titles */
+h1, h2 {
+  text-align: center; /* Center the titles */
+}
+/* General page layout */
+#planNavbar, .plan-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#planNavbar {
+  display: flex;
+  flex-direction: row; /* Aligns buttons in a horizontal row */
+  gap: 15px;
+  justify-content: center; /* Centers the buttons horizontally */
+  flex-wrap: wrap; /* Allows wrapping if there are too many buttons to fit in one line */
+  padding: 15px;
+}
+
+#planNavbar button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#planNavbar button:hover {
+  background-color: #0056b3;
+}
+
+#selectedPlanDetails {
+  display: flex;
+  justify-content: center; /* Centers the card horizontally */
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* Plan details card styling */
+.plan-details {
+  background-color: #f8f9fa;
+  max-width: 500px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 20px auto; /* Centers the card horizontally */
+}
+
+.plan-details h2 {
+  font-size: 1.5rem;
+  color: #343a40;
+}
+
+.plan-details p {
+  color: #495057;
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+.plan-details button {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.plan-details button:hover {
+  background-color: #218838;
+}
+
+/* Page header styling */
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 2rem;
+  color: #343a40;
+}
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers items horizontally */
+  justify-content: center; /* Centers items vertically */
+  margin: 0 auto; /* Centers the container */
+  max-width: 400px; /* Sets a max width for the form */
+  padding: 20px; /* Adds padding around the container */
+  background-color: #f8f9fa; /* Optional: Background color */
+  border-radius: 8px; /* Optional: Rounded corners */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Optional: Box shadow */
+}
+/* In App.css */
+.red-button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.red-button:hover {
+  background-color: darkred;
+}

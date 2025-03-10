@@ -1,0 +1,84 @@
+.repair-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ddd; /* Light border for a clean look */
+  border-radius: 8px;
+  background: #fffbe6; /* Light yellow background */
+}
+
+.repair-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #d4a017; /* Dark yellow/gold */
+}
+
+.repair-form .form-group {
+  margin-bottom: 15px;
+}
+
+.repair-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #d4a017; /* Dark yellow/gold */
+}
+
+.repair-form input,
+.repair-form select,
+.repair-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: #fffbe6; /* Light yellow background */
+  color: #333; /* Dark text */
+}
+
+.repair-form textarea {
+  resize: vertical;
+}
+
+.repair-form .btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background: #ffc107; /* Bright yellow */
+  color: #000; /* Black text */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.repair-form .btn:hover {
+  background: #e0a800; /* Darker yellow */
+}
+
+.repair-form .btn:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.card {
+  border-radius: 12px;
+  background-color: #fffbe6; /* Light yellow */
+}
+
+.text-primary {
+  color: #d4a017 !important; /* Match the Pay Bills theme */
+}
+
+.form-label {
+  font-weight: 500;
+  color: #d4a017; /* Gold text */
+}
+
+.form-control,
+.form-select {
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  background: #fffbe6; /* Light yellow background */
+  color: #333;
+}

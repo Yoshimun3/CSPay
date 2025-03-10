@@ -1,0 +1,16 @@
+{
+  "short_name": "CSPay",
+  "name": "Internet ni Juan Website",
+  "icons": [
+  
+    {
+      "src": "internetnijohn.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

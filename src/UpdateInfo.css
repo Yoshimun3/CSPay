@@ -1,0 +1,30 @@
+.update-info-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .update-info-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .update-info-container .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .update-info-container .form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+  }
+  
+  .update-info-container .btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+  }
+  

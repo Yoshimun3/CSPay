@@ -1,0 +1,69 @@
+.plan-card {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 15px;
+  overflow: hidden;
+  background: #fff;
+  border: 5px solid #FF6A00; /* Orange border */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+.plan-image-wrapper {
+  position: relative;
+  width: 100%;
+  height: 200px;
+}
+
+.plan-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(60%); /* Darken for contrast */
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3); /* Slight overlay for contrast */
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #FF6A00; /* Orange title */
+}
+
+.card-text {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.apply-btn {
+  display: inline-block;
+  width: 100%;
+  padding: 12px;
+  border-radius: 30px;
+  background: linear-gradient(90deg, #FF8C00, #FF6A00);
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background 0.2s ease-in-out;
+}
+
+.apply-btn:hover {
+  background: linear-gradient(90deg, #FF7000, #FF4500);
+}
+
+.navbar-logo {
+  height: 40px; /* Adjust the size as needed */
+  margin-right: 10px; /* Space between the logo and text */
+  vertical-align: middle; /* Align the image with the text */
+}
