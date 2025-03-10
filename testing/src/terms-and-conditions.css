@@ -1,0 +1,86 @@
+/* General Page Styling */
+.terms-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  /* Page Header */
+  .terms-header {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  /* Section Titles */
+  .terms-section-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    color: #444;
+  }
+  
+  /* Paragraph Styling */
+  .terms-text {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  /* Highlighting Important Text */
+  .terms-highlight {
+    font-weight: bold;
+    color: #d9534f; /* Red highlight */
+  }
+  
+  /* Unordered List Styling */
+  .terms-list {
+    padding-left: 20px;
+  }
+  
+  .terms-list li {
+    margin-bottom: 10px;
+  }
+  
+  /* Accept Button */
+  .terms-accept-btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #28a745; /* Green */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .terms-accept-btn:hover {
+    background-color: #218838;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .terms-container {
+      padding: 20px;
+      margin: 20px;
+    }
+  
+    .terms-header {
+      font-size: 24px;
+    }
+  
+    .terms-text {
+      font-size: 14px;
+    }
+  }
+  

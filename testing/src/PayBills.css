@@ -1,0 +1,132 @@
+/* General Page Styling */
+body {
+    background: linear-gradient(90deg, #ffde59, #ff914d, #e66413);
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .pay-bills-container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    color: #333;
+  }
+  
+  .page-title {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #333; /* Changed from blue */
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .tabs button {
+    background-color: #f8f9fa; /* Light gray background for inactive tab */
+    color: #333; /* Dark gray text */
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    outline: none;
+  }
+  
+  .tabs button.active {
+    background-color: #ffc107; /* Yellow background for active tab */
+    color: #000; /* Black text for active tab */
+    font-weight: bold;
+  }
+  
+  .tabs button:not(.active) {
+    background-color: #f8f9fa !important; /* Force light gray for inactive tabs */
+    color: #333 !important; /* Ensure dark text */
+  }
+  
+  .tabs button:hover {
+    background-color: #e0e0e0; /* Slightly darker gray on hover */
+  }
+  
+  
+  
+  .bills-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .bill-item {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .bill-details {
+    text-align: left;
+  }
+  
+  .bill-month {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .bill-due-date {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .bill-amount {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ff914d;
+  }
+  
+  .no-bills {
+    text-align: center;
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .btn-back {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #666;
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .btn-back:hover {
+    background-color: rgb(237, 187, 5);
+  }
+  
+  .btn-pay {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #e66413; /* Removed gradient */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .btn-pay:hover {
+    background-color: #c5530f;
+  }
+  

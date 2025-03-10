@@ -1,0 +1,147 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: "Arial", sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+  }
+  
+  /* General styling */
+.home-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Card Styling */
+.card {
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.card-title {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+/* Account Details */
+.account-details {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.account-details ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.account-details li {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+.account-details li strong {
+  color: #007bff;
+}
+
+/* Logout Button */
+.logout-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #dc3545; /* Red color */
+  color: white;
+  border: none;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #c82333; /* Darker red */
+}
+
+/* Welcome Card */
+.welcome-card {
+  background-color: #007bff;
+  color: white;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+
+.welcome-card h1 {
+  font-size: 2.5rem;
+}
+
+.welcome-card h2 {
+  font-size: 1.5rem;
+}
+
+.welcome-card span {
+  font-weight: bold;
+}
+
+/* Loading State */
+.loading-state {
+  text-align: center;
+  padding: 50px;
+  font-size: 1.25rem;
+  color: #007bff;
+  font-weight: 600;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .home-container {
+    padding: 15px;
+  }
+
+  .card-title {
+    font-size: 1.5rem;
+  }
+
+  .account-details li {
+    font-size: 1rem;
+  }
+
+  .welcome-card h1 {
+    font-size: 2rem;
+  }
+
+  .welcome-card h2 {
+    font-size: 1.25rem;
+  }
+
+  .logout-button {
+    font-size: 1rem;
+  }
+}
+.rejection-section {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ffc107;
+  background-color: #fff3cd;
+  border-radius: 5px;
+}
+
+.rejection-reason {
+  margin-top: 10px;
+  color: #856404;
+}
+.subscriber-card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Ensures content is at the top */
+  padding-bottom: 0 !important; /* Remove unnecessary padding */
+  margin-bottom: 0 !important; /* Remove extra margin */
+}
+
